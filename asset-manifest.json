@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/bonappetitfront/static/css/main.073c9b0a.css",
-    "main.js": "/bonappetitfront/static/js/main.6ca384f7.js",
-    "static/js/787.5d33b1c4.chunk.js": "/bonappetitfront/static/js/787.5d33b1c4.chunk.js",
-    "static/media/logo.png": "/bonappetitfront/static/media/logo.6976e39d3c4b63f344d0.png",
-    "static/media/damiens.png": "/bonappetitfront/static/media/damiens.cdf6bc95ae09c5ad293e.png",
-    "index.html": "/bonappetitfront/index.html",
-    "main.073c9b0a.css.map": "/bonappetitfront/static/css/main.073c9b0a.css.map",
-    "main.6ca384f7.js.map": "/bonappetitfront/static/js/main.6ca384f7.js.map",
-    "787.5d33b1c4.chunk.js.map": "/bonappetitfront/static/js/787.5d33b1c4.chunk.js.map"
+    "main.css": "/BonAppetitFront/static/css/main.073c9b0a.css",
+    "main.js": "/BonAppetitFront/static/js/main.4bae9637.js",
+    "static/media/logo.png": "/BonAppetitFront/static/media/logo.6976e39d3c4b63f344d0.png",
+    "static/media/damiens.png": "/BonAppetitFront/static/media/damiens.cdf6bc95ae09c5ad293e.png",
+    "index.html": "/BonAppetitFront/index.html",
+    "main.073c9b0a.css.map": "/BonAppetitFront/static/css/main.073c9b0a.css.map",
+    "main.4bae9637.js.map": "/BonAppetitFront/static/js/main.4bae9637.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.6ca384f7.js"
+    "static/js/main.4bae9637.js"
   ]
 }

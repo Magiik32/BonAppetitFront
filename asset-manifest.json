@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BonAppetitFront/static/css/main.073c9b0a.css",
-    "main.js": "/BonAppetitFront/static/js/main.d30d5d72.js",
+    "main.js": "/BonAppetitFront/static/js/main.ab9e30d3.js",
     "static/media/logo.png": "/BonAppetitFront/static/media/logo.6976e39d3c4b63f344d0.png",
     "static/media/damiens.png": "/BonAppetitFront/static/media/damiens.cdf6bc95ae09c5ad293e.png",
     "index.html": "/BonAppetitFront/index.html",
     "main.073c9b0a.css.map": "/BonAppetitFront/static/css/main.073c9b0a.css.map",
-    "main.d30d5d72.js.map": "/BonAppetitFront/static/js/main.d30d5d72.js.map"
+    "main.ab9e30d3.js.map": "/BonAppetitFront/static/js/main.ab9e30d3.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d30d5d72.js"
+    "static/js/main.ab9e30d3.js"
   ]
 }

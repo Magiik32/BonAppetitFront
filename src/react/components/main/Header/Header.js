@@ -1,6 +1,7 @@
 import { Button } from "semantic-ui-react";
 import logo from "../../../../images/logo.png";
 import { toast } from "react-toastify";
+import TrendingSlider from "../TrendingSlider/TrendingSlider";
 
 const Header = () => {
 	return (
@@ -40,7 +41,9 @@ const Header = () => {
 			</div>
 
 			{/* Slider */}
-			<div id="area-header-slider">Slider ici</div>
+			<div id="area-header-slider">
+				<TrendingSlider />
+			</div>
 		</header>
 	);
 };

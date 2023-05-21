@@ -7,7 +7,7 @@ const App = () => {
 	return (
 		<>
 			<Header />
-			<aside>Aside</aside>
+			<aside>Filters</aside>
 			<main></main>
 			<Footer />
 			<ToastContainer

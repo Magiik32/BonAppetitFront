@@ -7,11 +7,11 @@ import "./index.css";
 import "./App.css";
 import "./react/components/main/Footer/Footer.css";
 import "./react/components/main/Header/Header.css";
-import "./react/components/main/TrendingSlider/TrendingSlider";
+import "./react/components/main/TrendingSlider/TrendingSlider.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>
+	// <React.StrictMode>
+	<App />
+	// </React.StrictMode>
 );

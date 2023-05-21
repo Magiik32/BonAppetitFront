@@ -21,32 +21,30 @@ body {
 		"side content"
 		"foot foot";
 	grid-template-columns: 20em 1fr;
-	grid-template-rows: 10em 1fr 4em;
+	grid-template-rows: 26em 1fr 4em;
 }
 
 /* Semantique : répartition de la grid */
 header {
 	grid-area: head;
-	border: 1px solid black;
+	/* border: 1px solid red; */
 }
 
 aside {
 	grid-area: side;
 	border: 1px solid black;
+	padding: 2em 4em;
 }
 
 main {
 	grid-area: content;
 	border: 1px solid black;
+	padding: 2em;
 }
 
 footer {
 	grid-area: foot;
-	background: linear-gradient(-225deg, #a2e8d6 0%, #50a7c2 100%);
-	display: flex;
-	align-items: center;
-	padding: 0 3em;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 /* All outlines */

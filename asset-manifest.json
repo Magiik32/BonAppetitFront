@@ -1,15 +1,31 @@
 {
   "files": {
-    "main.css": "/BonAppetitFront/static/css/main.073c9b0a.css",
-    "main.js": "/BonAppetitFront/static/js/main.bc249b47.js",
+    "main.css": "/BonAppetitFront/static/css/main.d9bdeaf9.css",
+    "main.js": "/BonAppetitFront/static/js/main.72ae6c88.js",
+    "static/media/exemple1.png": "/BonAppetitFront/static/media/exemple1.de4ece5ace4311801460.png",
     "static/media/logo.png": "/BonAppetitFront/static/media/logo.6976e39d3c4b63f344d0.png",
-    "static/media/damiens.png": "/BonAppetitFront/static/media/damiens.cdf6bc95ae09c5ad293e.png",
+    "static/media/brand-icons.svg": "/BonAppetitFront/static/media/brand-icons.6729d29753e000c17489.svg",
+    "static/media/icons.svg": "/BonAppetitFront/static/media/icons.62d9dae4e0040e81c980.svg",
+    "static/media/outline-icons.svg": "/BonAppetitFront/static/media/outline-icons.9c4845b4b41ef40a22fa.svg",
+    "static/media/icons.eot": "/BonAppetitFront/static/media/icons.a01e3f2d6c83dc3aee17.eot",
+    "static/media/icons.ttf": "/BonAppetitFront/static/media/icons.c656b8caa454ed19b9a2.ttf",
+    "static/media/brand-icons.eot": "/BonAppetitFront/static/media/brand-icons.d68fa3e67dbb653a13ce.eot",
+    "static/media/brand-icons.ttf": "/BonAppetitFront/static/media/brand-icons.65a2fb6d9aaa164b41a0.ttf",
+    "static/media/brand-icons.woff": "/BonAppetitFront/static/media/brand-icons.cac87dc00c87a5d74711.woff",
+    "static/media/brand-icons.woff2": "/BonAppetitFront/static/media/brand-icons.278156e41e0ad908cf7f.woff2",
+    "static/media/icons.woff": "/BonAppetitFront/static/media/icons.425399f81e4ce7cbd967.woff",
+    "static/media/icons.woff2": "/BonAppetitFront/static/media/icons.38c6d8bab26db77d8c80.woff2",
+    "static/media/outline-icons.eot": "/BonAppetitFront/static/media/outline-icons.752905fa5edf21fc52a1.eot",
+    "static/media/outline-icons.ttf": "/BonAppetitFront/static/media/outline-icons.5367103510b27b784827.ttf",
+    "static/media/flags.png": "/BonAppetitFront/static/media/flags.99f63ae7a743f21ab308.png",
+    "static/media/outline-icons.woff": "/BonAppetitFront/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
+    "static/media/outline-icons.woff2": "/BonAppetitFront/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/BonAppetitFront/index.html",
-    "main.073c9b0a.css.map": "/BonAppetitFront/static/css/main.073c9b0a.css.map",
-    "main.bc249b47.js.map": "/BonAppetitFront/static/js/main.bc249b47.js.map"
+    "main.d9bdeaf9.css.map": "/BonAppetitFront/static/css/main.d9bdeaf9.css.map",
+    "main.72ae6c88.js.map": "/BonAppetitFront/static/js/main.72ae6c88.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.bc249b47.js"
+    "static/css/main.d9bdeaf9.css",
+    "static/js/main.72ae6c88.js"
   ]
 }

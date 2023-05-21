@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Grid */
+#root {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-areas:
+		"head head"
+		"side content"
+		"foot foot";
+	grid-template-columns: 20em 1fr;
+	grid-template-rows: 10em 1fr 4em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Semantique : répartition de la grid */
+header {
+	grid-area: head;
+	border: 1px solid black;
 }
 
-.App-link {
-  color: #61dafb;
+aside {
+	grid-area: side;
+	border: 1px solid black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main {
+	grid-area: content;
+	border: 1px solid black;
+}
+
+footer {
+	grid-area: foot;
+	background: linear-gradient(-225deg, #a2e8d6 0%, #50a7c2 100%);
+	display: flex;
+	align-items: center;
+	padding: 0 3em;
+	border: 1px solid black;
+}
+
+/* All outlines */
+*:focus-visible {
+	outline: none;
 }

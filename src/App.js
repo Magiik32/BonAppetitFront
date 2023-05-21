@@ -1,16 +1,30 @@
-import damiens from './damiens.png';
-import logo from './logo.png';
-import './App.css';
+import "./App.css";
+import { Slide, ToastContainer } from "react-toastify";
+import Footer from "./react/components/main/Footer/Footer";
+import Header from "./react/components/main/Header/Header";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} alt="logo" width={200} />
-        <img src={damiens} alt="logo" width={200}/>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	return (
+		<>
+			<Header />
+			<aside>Aside</aside>
+			<main></main>
+			<Footer />
+			<ToastContainer
+				position="bottom-right"
+				autoClose={6000}
+				hideProgressBar={false}
+				newestOnTop={false}
+				closeOnClick
+				rtl={false}
+				pauseOnFocusLoss
+				draggable
+				pauseOnHover
+				theme="colored"
+				transition={Slide}
+			/>
+		</>
+	);
+};
 
 export default App;

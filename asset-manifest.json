@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/BonAppetitFront/static/css/main.d9bdeaf9.css",
-    "main.js": "/BonAppetitFront/static/js/main.72ae6c88.js",
+    "main.css": "/BonAppetitFront/static/css/main.2d85427d.css",
+    "main.js": "/BonAppetitFront/static/js/main.dc1338aa.js",
     "static/media/exemple1.png": "/BonAppetitFront/static/media/exemple1.de4ece5ace4311801460.png",
     "static/media/logo.png": "/BonAppetitFront/static/media/logo.6976e39d3c4b63f344d0.png",
     "static/media/brand-icons.svg": "/BonAppetitFront/static/media/brand-icons.6729d29753e000c17489.svg",
@@ -21,11 +21,11 @@
     "static/media/outline-icons.woff": "/BonAppetitFront/static/media/outline-icons.ddae9b1ba9b0b42f5880.woff",
     "static/media/outline-icons.woff2": "/BonAppetitFront/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/BonAppetitFront/index.html",
-    "main.d9bdeaf9.css.map": "/BonAppetitFront/static/css/main.d9bdeaf9.css.map",
-    "main.72ae6c88.js.map": "/BonAppetitFront/static/js/main.72ae6c88.js.map"
+    "main.2d85427d.css.map": "/BonAppetitFront/static/css/main.2d85427d.css.map",
+    "main.dc1338aa.js.map": "/BonAppetitFront/static/js/main.dc1338aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9bdeaf9.css",
-    "static/js/main.72ae6c88.js"
+    "static/css/main.2d85427d.css",
+    "static/js/main.dc1338aa.js"
   ]
 }

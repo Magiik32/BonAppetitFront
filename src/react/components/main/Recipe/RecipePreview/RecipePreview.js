@@ -1,24 +1,37 @@
-import { Button, Rating } from "semantic-ui-react";
-import recipe from "../../../../../images/exemple1.png";
-import { toast } from "react-toastify";
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import { fetchRecipes } from "../../../../../redux/actions/recipe-actions";
 
-let RecipePreview = () => {
-	return (
-		<div className="recipe-view-container">
-			<img id="recipe" src={recipe} alt="recipe" />
-			<h2>Bruchetta italian snack</h2>
-			<p>By Tom Brazzat</p>
-			<Rating icon="star" defaultRating={2} maxRating={10} disabled />
-			<Button>test</Button>
-			<button className="ui button" onClick={() => ShowToast()}>
-				test
-			</button>
-		</div>
-	);
-};
+class RecipePreview extends Component {
+	componentDidMount() {
+		this.props.fetchRecipes();
+	}
 
-function ShowToast() {
-	toast.error("test");
+	render() {
+		const { recipes } = this.props;
+
+		console.log(recipes);
+
+		if (!recipes || recipes.length === 0) {
+			return <div>Chargement des recettes ...</div>;
+		}
+
+		return (
+			<div>
+				{recipes.map((recipe, index) => (
+					<div key={index}>
+						<h2>{recipe.title}</h2>
+						<p>Author: {recipe.author}</p>
+						<p>Rating: {recipe.rating}</p>
+					</div>
+				))}
+			</div>
+		);
+	}
 }
 
-export default RecipePreview;
+const mapStateToProps = ({ recipes }) => ({
+	recipes: recipes.datas,
+});
+
+export default connect(mapStateToProps, { fetchRecipes })(RecipePreview);
